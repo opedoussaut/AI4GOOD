@@ -1,0 +1,7 @@
+name: ecoinvent-mongo-mcp
+description: MCP server exposing ecoinvent cutoff_activities collection
+backend: mongodb
+collections:
+  - cutoff_activities
+connection:
+  uri: "mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@ecoinventdb.zss85ou.mongodb.net/"
